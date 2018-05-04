@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.lukeboyde.projectofficial.EditProfile">
+
+    <RelativeLayout
+        android:background="@drawable/gradientbackground2"
+        android:layout_width="match_parent"
+        android:layout_height="650dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/editTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="40dp"
+            android:text="EDIT YOUR PROFILE"
+            android:textColor="#fff"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+
+    <EditText
+        android:layout_below="@+id/editTitle"
+        android:id="@+id/changeName"
+        android:layout_width="400dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="30dp"
+        android:hint="Change your name"/>
+
+    <Button
+        android:id="@+id/update1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/changeName"
+        android:layout_alignBottom="@+id/changeName"
+        android:layout_marginStart="93dp"
+        android:layout_toEndOf="@+id/editTitle"
+        android:text="Update" />
+
+    <EditText
+        android:id="@+id/changeBio"
+        android:layout_width="400dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="30dp"
+        android:layout_below="@+id/changeName"
+        android:hint="Change your bio"/>
+
+    <Button
+        android:id="@+id/update2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/changeBio"
+        android:layout_alignBottom="@+id/changeBio"
+        android:layout_alignStart="@+id/update1"
+        android:text="Update" />
+
+    <EditText
+        android:id="@+id/changeEmail"
+        android:layout_width="400dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="30dp"
+        android:layout_below="@+id/changeBio"
+        android:hint="Change your email"/>
+
+    <Button
+        android:id="@+id/update3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/changeEmail"
+        android:layout_alignBottom="@+id/changeEmail"
+        android:layout_alignStart="@+id/update1"
+        android:text="Update" />
+
+    <EditText
+        android:id="@+id/changeNumber"
+        android:layout_width="400dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="30dp"
+        android:layout_below="@+id/changeEmail"
+        android:hint="Change your number"/>
+
+    <Button
+        android:id="@+id/update4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/changeNumber"
+        android:layout_alignBottom="@+id/changeNumber"
+        android:layout_alignStart="@+id/update1"
+        android:text="Update" />
+
+    <EditText
+        android:id="@+id/changeInterests"
+        android:layout_width="400dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="30dp"
+        android:layout_below="@+id/changeNumber"
+        android:hint="Change your interests"/>
+
+    <Button
+        android:id="@+id/update5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/changeInterests"
+        android:layout_alignBottom="@+id/changeInterests"
+        android:layout_alignStart="@+id/update1"
+        android:text="Update" />
+
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/buttonSave"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="54dp"
+        android:background="@drawable/buttonstylegradient2"
+        android:text="Save" />
+
+
+</RelativeLayout>

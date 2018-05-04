@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">ProjectOfficial</string>
+    <string name="place_name">Place Name</string>
+    <string name="address">Address</string>
+    <string name="find_poi">Find Place of Interest</string>
+    <string name="number">Number</string>
+    <string name="website">Website</string>
+    <string name="type">Type</string>
+    <string name="price">Price</string>
+    <string name="saveInterests">Save Interests</string>
+    <string name="showInterests">Show Interests</string>
+    <string name="interests">Interests</string>
+    <string name="findPlace">Find Place</string>
+    <string name="itg">Groups</string>
+    <string name="sai">Show all Interests</string>
+    <string name="userProfile">User Profile</string>
+    <string name="viewProfile">View Profile</string>
+    <string name="recommendedConnections">Recommended Connections</string>
+    <string name="viewRecommendations">Recommended Events</string>
+    <string name="edit_profile">Edit Profile</string>
+    <string name="showInts">Show Interests</string>
+    <string name="Connections">Connections</string>
+    <string name="home">Home</string>
+</resources>
